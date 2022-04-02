@@ -35,7 +35,7 @@ export const StyledProjects = styled.section`
   .image-box img{
     border-radius: 10px;
     border: double 5px grey;
-    max-width: auto;
+    max-width: 50rem;
   }
   .image-box:hover .image {
     opacity: 0.3;
