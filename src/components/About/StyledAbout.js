@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledAbout = styled.section`
 
-  min-height: calc(100vh - 220px); 
+  min-height: calc(100vh - 210px); 
   color:#b3ccff;
   display: flex;
   width: 100%;

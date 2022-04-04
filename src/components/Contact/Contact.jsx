@@ -4,18 +4,20 @@ import { StyledContact } from "./StyledContact";
 const Contact = () => {
   return(
     <StyledContact>
-      <form>
-        <label htmlFor="Name">Your Name:</label>
-        <input type="text" name="Name" />
-        <br/>
-        <label htmlFor="E-mail">Your Name:</label>
-        <input type="text" name="E-mail" />
-        <br/>
-        <label htmlFor="Message">Your Name:</label>
-        <textarea type="text" name="Message" />
-        <br/>
-      </form>
-
+      <div className="form-container">
+        <h1>Contact me!</h1>
+        <form>
+          <label htmlFor="Name">Name:</label>
+          <input type="text" name="Name" />
+          <br/>
+          <label htmlFor="E-mail">E-mail:</label>
+          <input type="text" name="E-mail" />
+          <br/>
+          <label htmlFor="Message">Message:</label>
+          <textarea type="text" name="Message" />
+          <br/>
+        </form>
+      </div>
     </StyledContact>
   );
 }

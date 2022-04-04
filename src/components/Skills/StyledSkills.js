@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledSkills = styled.section`
   color: #b3ccff;
-  min-height: calc(100vh - 195px); 
+  min-height: calc(100vh - 210px); 
   font-size: 1.5rem;
 
   h1{

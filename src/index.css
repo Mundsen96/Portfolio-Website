@@ -4,8 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  background-image: url('https://cdn.pixabay.com/photo/2020/09/10/03/02/mountains-5559099_1280.png');
-  background-repeat: no-repeat;
+  background: url('https://cdn.pixabay.com/photo/2020/09/10/03/02/mountains-5559099_1280.png') no-repeat center center fixed;
   background-size: cover;
   opacity: 0.8;
 }

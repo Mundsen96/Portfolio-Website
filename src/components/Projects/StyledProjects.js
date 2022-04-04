@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledProjects = styled.section`
-  min-height: calc(100vh - 220px); 
+  min-height: calc(100vh - 210px); 
   .projects-container{
     display: flex;
     overflow-x: auto;

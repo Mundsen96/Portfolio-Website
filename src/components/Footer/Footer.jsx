@@ -7,9 +7,9 @@ const Footer = () => {
       <h3 className="section-heading">Let's Work Together!</h3>
       <p>Find me on:</p>
       <p>
-        <a href="https://github.com/Mundsen96"><i className="fab fa-github"> Github</i></a>
-        <a href="#"><i className="fab fa-linkedinin-in"> Linkedin</i></a>
-        <a href="#"><i className="fas fa-envelope-square"> E-mail</i></a>
+        <a href="https://github.com/Mundsen96" target='_blank'><i className="fab fa-github"> Github</i></a>
+        <a href="https://linkedin.com/in/sebastian-młotkowski-931090159" target='_blank'><i className="fab fa-linkedin-in"> Linkedin</i></a>
+        <a href="mailto:sebamlot142@gmail.com" target='_blank'><i className="fas fa-envelope-square"> E-mail</i></a>
       </p>
     </StyledFooter>
   );

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledMain = styled.main`
-  min-height: calc(100vh - 195px); 
+  min-height: calc(100vh - 210px); 
   display: flex;
   justify-content: center;
 

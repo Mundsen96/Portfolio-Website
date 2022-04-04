@@ -18,6 +18,7 @@ export const StyledNavbar = styled.nav`
     list-style: none; /*Usuwanie kropek z listy*/
   }
   ul li a{
+    padding:5px;
     margin-left: 3px;
     color: #b3ccff;
     opacity: 1; /*rozjaśnienie tekstu*/
@@ -30,7 +31,6 @@ export const StyledNavbar = styled.nav`
     background-color: grey;
     opacity: 0.5;
     border-radius: 25px;
-    padding: 5px;
     transition: all 0.15s; /*Przejście między stylami w ciągu 0.15sekundy*/
   }
 `;
