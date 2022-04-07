@@ -21,6 +21,7 @@ export const StyledNavbar = styled.nav`
     padding:5px;
     margin-left: 3px;
     color: #b3ccff;
+    border-radius: 25px;
     opacity: 1; /*rozjaśnienie tekstu*/
     font-size: 1.2rem;
     font-family: "Poppins", Arial, Helvetica, sans-serif;

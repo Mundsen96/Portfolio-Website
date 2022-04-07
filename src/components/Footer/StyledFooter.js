@@ -6,10 +6,13 @@ export const StyledFooter = styled.footer`
   text-align: center;
 
   a{
-    color: white;
-    margin-right: 10px;
+    color: #b3ccff;
+    margin: 0 1.5rem; 
     text-decoration: none;
     font-size: 1rem;
+  }
+  i{
+    font-size: 2rem;
   }
   p{
     font-size:0.7rem;

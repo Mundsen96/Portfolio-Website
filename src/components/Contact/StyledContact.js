@@ -19,7 +19,7 @@ export const StyledContact = styled.div`
     width:40%;
   }
   form{
-    width: fit-content;
+    width: 100%;
   }
   input[type=text], textarea{
     font-size: 1.3rem;
