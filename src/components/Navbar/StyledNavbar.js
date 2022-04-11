@@ -7,7 +7,7 @@ export const StyledNavbar = styled.nav`
   height: fit-content;
   top: 0;
   left: 0;
-  box-shadow: inset 0 0 1em 0.5em rgba(128,128,128,0.4) , 0 0.5em 1em 0.5em rgba(128,128,128,0.4); 
+  // box-shadow: inset 0 0 1em 0.5em rgba(128,128,128,0.4) , 0 0.5em 1em 0.5em rgba(128,128,128,0.4); 
   background-color: rgb(38, 38, 38, 0.4);
 
   ul{

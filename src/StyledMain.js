@@ -18,9 +18,8 @@ export const StyledMain = styled.main`
     text-align: center;
   }
   .message p{
-    background-color: rgb(128, 128, 128, 0.5);
+    background-color: rgb(38, 38, 38, 0.4);
     border-radius: 50px;
-    box-shadow: 0 0 1em 0.5em rgba(128,128,128,0.5); 
     color:#b3ccff;
   }
   .message img{

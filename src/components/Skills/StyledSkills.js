@@ -4,13 +4,8 @@ export const StyledSkills = styled.section`
   color: #b3ccff;
   min-height: calc(100vh - 210px); 
   font-size: 1.5rem;
+  display: flex;
 
-  h1{
-    margin:0;
-    
-    padding: 2rem 0 2rem 0;
-    text-align: center;
-  }
   .skills-container{
     display: flex;
     flex-wrap: wrap;

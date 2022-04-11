@@ -4,7 +4,6 @@ import { StyledSkills } from "./StyledSkills";
 const Skills = () => {
   return(
     <StyledSkills>
-      <h1 className="section-heading">My skills</h1>
       <div className="skills-container">
         <div className="skill-information">
           <p> <i className="fab fa-html5 fa-3x"></i></p>
