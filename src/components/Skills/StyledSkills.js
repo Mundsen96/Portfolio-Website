@@ -17,6 +17,8 @@ export const StyledSkills = styled.section`
   .skill-information{
     padding:1.5rem;
     text-align: center;
+    background-color: rgb(38, 38, 38, 0.4);
+    border-radius: 100rem;
   }
   .skill-name{
     padding: 0;

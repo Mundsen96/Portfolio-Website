@@ -1,27 +1,28 @@
 import styled from 'styled-components';
 
-export const StyledContact = styled.div`
+export const StyledContact = styled.form`
   min-height: calc(100vh - 210px); 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   font-size: 1.3rem;
+  .wrapper{
+    width: 30%;
+  }
   h1{
     text-align: center;
     color: #b3ccff;
   }
-  label{
-    background-color: #b3ccff;
-    padding: 3px;
-    border-radius: 20px;
-  }
-  .form-container{
-    width:40%;
-  }
   form{
     width: 100%;
   }
-  input[type=text], textarea{
+  label{
+    background-color: #b3ccff;
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  input[type=text], textarea, input[type=email]{
     font-size: 1.3rem;
     width: 100%;
     padding: 12px 20px;
@@ -32,4 +33,21 @@ export const StyledContact = styled.div`
   textarea{
     resize: none;
   }
+  button{
+    width: fit-content;
+    padding: 12px 20px;
+    border: 3px solid #b3ccff;
+    border-radius: 10px;
+    font-size: 1.3rem;
+  }
+  button:hover{
+    background-color: #b3ccff;
+  }
+  .after-submit{
+    padding: 12px 20px;
+    border: 3px solid #b3ccff;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
 `
