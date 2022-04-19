@@ -6,14 +6,14 @@ export const StyledAbout = styled.section`
   color:#b3ccff;
   display: flex;
   width: 100%;
-  justify-content: space-around; /*oś x, flex-start end(lewy, prawy)*/
-  align-items: center; /*oś y, flex-start end(góra dół)*/
+  justify-content: space-around;
+  align-items: center; 
   font-size: 2rem;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   text-align: center;
 
   .message img{
-    max-width: 50%; /* Dopasowanie obrazka do kontenera div niezaleznie od rozdzielczości zrodłowej obrazka*/
+    max-width: 50%;
   }
   .message img:hover{
     transform: scale(1.07);

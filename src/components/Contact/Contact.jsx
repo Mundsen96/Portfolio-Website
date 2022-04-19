@@ -38,7 +38,7 @@ const Contact = () => {
         </div>
         <div className="wrapper">
           <label htmlFor="Message">Message:</label>
-          <textarea name="Message" />
+          <textarea name="Message" required/>
         </div>
         <div className="submit">
           <button type="submit">

@@ -11,6 +11,9 @@ export const StyledContact = styled.form`
     width: 30%;
   }
   h1{
+    background-color:rgb(38, 38, 38, 0.4);
+    border-radius: 20px;
+    padding: 5px;
     text-align: center;
     color: #b3ccff;
   }

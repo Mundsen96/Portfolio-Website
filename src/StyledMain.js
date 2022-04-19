@@ -12,8 +12,8 @@ export const StyledMain = styled.main`
   .message{
     display: flex;
     width: 100%;
-    justify-content: center; /*oś x, flex-start end(lewy, prawy)*/
-    align-items: center; /*oś y, flex-start end(góra dół)*/
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     text-align: center;
   }
@@ -23,7 +23,7 @@ export const StyledMain = styled.main`
     color:#b3ccff;
   }
   .message img{
-    max-width: 40%; /* Dopasowanie obrazka do kontenera div niezaleznie od rozdzielczości zrodłowej obrazka*/
+    max-width: 40%;
     border-radius: 1000px;
     padding: 4rem;
     border: 5px grey double;
