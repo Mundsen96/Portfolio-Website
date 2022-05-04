@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import sebek from './components/Projects/Images/sebekk.svg'
+
 
 export const StyledMain = styled.main`
   min-height: calc(100vh - 210px); 
@@ -22,14 +24,15 @@ export const StyledMain = styled.main`
     border-radius: 50px;
     color:#b3ccff;
   }
-  .message img{
-    max-width: 40%;
-    border-radius: 1000px;
+  .main-image{
+    background-image: url(${sebek});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:40%;
     padding: 4rem;
-    border: 5px grey double;
-    background-color: rgb(173, 173, 235, 0.5);
   }
-  .message img:hover{
+  .main-image:hover{
     transform: scale(1.07);
     transition: all 1s; 
   }
