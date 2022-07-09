@@ -3,6 +3,7 @@ import tenzies from './Images/Tenzies.png';
 import airbnb from './Images/Airbnb.png';
 import quizGame from './Images/QuizGame.png';
 import travel from './Images/TravelJournal.png';
+import portfolio from './Images/MagdaPortfolio.png';
 
 export const projects = [
   {
@@ -39,5 +40,12 @@ export const projects = [
     imageURL: travel,
     href: 'https://github.com/Mundsen96/travel-journal-React',
     id: 5,
+  },
+  {
+    name: 'Magda Portfolio',
+    comment: 'Portfolio made for Graphic Designer',
+    imageURL: portfolio,
+    href: 'https://sokolowskaportfolio.surge.sh/',
+    id: 6,
   },
 ];
