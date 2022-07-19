@@ -1,31 +1,20 @@
 import React from "react";
 import { StyledSkills } from "./StyledSkills";
+import {skills} from "./ListOfSkills"
 
 const Skills = () => {
   return(
     <StyledSkills>
-      <div className="skills-container">
-        <div className="skill-information">
-          <p> <i className="fab fa-html5 fa-3x"></i></p>
-          <p className="skill-name">HTML5</p>
-          <p><progress value="60" max="100"></progress></p>
-        </div>
-        <div className="skill-information">
-          <p> <i className="fab fa-css3 fa-3x"></i></p>
-          <p className="skill-name">CSS3</p>
-          <p><progress value="60" max="100"></progress></p>
-        </div>
-        <div className="skill-information">
-          <p> <i className="fab fa-js fa-3x"></i></p>
-          <p className="skill-name">JAVASCRIPT</p>
-          <p><progress value="60" max="100"></progress></p>
-        </div>
-        <div className="skill-information">
-          <p> <i className="fab fa-react fa-3x"></i></p>
-          <p className="skill-name">React</p>
-          <p><progress value="25" max="100"></progress></p>
-        </div>
-      </div>
+      <ul className="skills-container">
+        {skills.map((skill)=>{
+          return(
+            <li className="skill-information">
+              <i class={skill.icon}></i>
+              <p className="skill-name">{skill.name} </p>
+            </li>
+          )
+        })}
+      </ul>
     </StyledSkills>
   );
 }

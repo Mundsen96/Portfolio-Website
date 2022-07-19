@@ -27,24 +27,23 @@ const Contact = () => {
       method="POST"
       target="_blank"
     >
-      <h1>Contact me!</h1>
-        <div className="wrapper">
-          <label htmlFor="Name">Name:</label>
-          <input type="text" name="Name" required/>
-        </div>
-        <div className="wrapper">
-          <label htmlFor="E-mail">E-mail:</label>
-          <input type="email" name="E-mail" required/>
-        </div>
-        <div className="wrapper">
-          <label htmlFor="Message">Message:</label>
-          <textarea name="Message" required/>
-        </div>
-        <div className="submit">
-          <button type="submit">
-            Send a message
-          </button>
-        </div>
+      <div className="wrapper">
+        <label htmlFor="Name">Name:</label>
+        <input type="text" name="Name" required/>
+      </div>
+      <div className="wrapper">
+        <label htmlFor="E-mail">E-mail:</label>
+        <input type="email" name="E-mail" required/>
+      </div>
+      <div className="wrapper">
+        <label htmlFor="Message">Message:</label>
+        <textarea name="Message" required/>
+      </div>
+      <div className="submit">
+        <button type="submit">
+          Send a message
+        </button>
+      </div>
     </StyledContact>
   );
 }

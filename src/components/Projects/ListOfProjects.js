@@ -45,7 +45,7 @@ export const projects = [
     name: 'Magda Portfolio',
     comment: 'Portfolio made for Graphic Designer',
     imageURL: portfolio,
-    href: 'https://sokolowskaportfolio.surge.sh/',
+    href: 'https://sokolowskaportfolio.netlify.app',
     id: 6,
   },
 ];

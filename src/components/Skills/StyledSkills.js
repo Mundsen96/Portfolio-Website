@@ -1,42 +1,29 @@
 import styled from 'styled-components';
+import { device } from '../devices';
 
 export const StyledSkills = styled.section`
-  color: #b3ccff;
-  min-height: calc(100vh - 210px); 
-  font-size: 1.5rem;
-  display: flex;
+  color:rgb(38, 38, 38, 0.4);
+  font-size: 1.2rem;
 
   .skills-container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 2rem;
+    padding: 0 3vw;
   }
   .skill-information{
-    padding:1.5rem;
+    margin: 10px 0;
+    width: calc(50% - 10px);
+    padding: 1rem;
     text-align: center;
-    background-color: rgb(38, 38, 38, 0.4);
-    border-radius: 100rem;
+    background-color: #b3ccff;
+    border-radius: 10px;
   }
   .skill-name{
-    padding: 0;
-    margin: 0;
-    font-size: 1.2rem;
+    margin:0;
   }
-  .skill-information progress{
-    background-color: #1a8cff;
-    border: solid 1px white;
-    border-radius: 25px;
-  }
-  .skill-information progress::-webkit-progress-value{
-    background-color: #5c5cd6;
-    border-radius: 25px;
-  }
-  .skill-information progress::-webkit-progress-bar{
-    background-color: #adadeb;
-    border-radius: 25px;
-  ;
+  ul, li{
+    list-style-type: none;
   }
 `

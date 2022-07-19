@@ -10,9 +10,9 @@ const Projects = () => {
         {projects.map((project)=>{
           return (
           <div className="image-box" key={project.id}>
+            <div className="comment">{project.comment}</div>
             <a href={project.href} target="_blank">
               <img src={project.imageURL} alt={project.name} className='image'/>
-              <div className="comment">{project.comment}</div>
             </a>
           </div>
           )
