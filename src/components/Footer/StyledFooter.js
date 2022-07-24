@@ -23,4 +23,16 @@ export const StyledFooter = styled.footer`
   h3{
     margin:0;
   }
+  @media screen and (min-width: 768px){
+    margin-left: auto;
+    width: fit-content;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    i{
+      margin: 1rem 0;
+    }
+  }
 `

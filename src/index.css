@@ -1,3 +1,9 @@
+
+:root{
+  --color: #4d88ff;
+  --second-color: #b3ccff;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -15,32 +21,34 @@ code {
   box-sizing: border-box;
 }
 
-:root{
-  --background: white;
-  --color: #4d88ff;
-  --second-color: #b3ccff;
-  --text-color: black;
-  --background-input: white;
-}
-
-[data-theme = 'dark']{
-  --background:#404040;
-  --text-color: white;
-  --background-input: #d9d9d9;
-}
-
-.app-wrapper{
+#root{
   display: grid;
   grid-template-columns: 5% 90% 5%;
   grid-template-rows: 10% 65% 25%;
   height: 100%;
 }
 
-#root{
+.dark{
+  background:#404040;
+  color: white;
+}
+
+.light{
+  background: white;
+  color: black;
+}
+
+.app{
   box-shadow: 0 0 1em black;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  height: fit-content;
   border-radius: 15px;
+  height: fit-content;
 }
 
+@media screen and (min-width: 768px){
+  .app{
+    display: flex;
+    height: 45vw;
+  }
+}

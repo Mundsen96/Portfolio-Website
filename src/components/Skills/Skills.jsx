@@ -6,10 +6,10 @@ const Skills = () => {
   return(
     <StyledSkills>
       <ul className="skills-container">
-        {skills.map((skill)=>{
+        {skills.map((skill, key)=>{
           return(
-            <li className="skill-information">
-              <i class={skill.icon}></i>
+            <li className="skill-information" key={key}>
+              <i className={skill.icon}></i>
               <p className="skill-name">{skill.name} </p>
             </li>
           )

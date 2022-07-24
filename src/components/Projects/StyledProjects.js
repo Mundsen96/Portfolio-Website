@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { device } from '../devices';
 
 export const StyledProjects = styled.section`
+  
+
   .projects-container{
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +14,7 @@ export const StyledProjects = styled.section`
   }
   .image-box{
     position: relative;
-    border-bottom: 2vw solid #b3ccff;
+    border-bottom: 1vw solid var(--color);
   }
   .image-box .comment{
     // transition: .5s ease;
@@ -46,4 +48,11 @@ export const StyledProjects = styled.section`
   // .image-box:hover .comment {
   //   opacity: 1;
   // }
+
+  @media screen and (min-width: 768px){
+    margin-left: auto;
+    width:60%;
+    height: 100%;
+    overflow-y: scroll;
+  }
 `

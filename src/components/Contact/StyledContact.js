@@ -7,15 +7,17 @@ export const StyledContact = styled.form`
   align-items: center;
   flex-direction: column;
   font-size: 0.8rem;
-  padding: 1rem;
-  color:var(--second-color);
+  padding:1rem 0;
   .wrapper{
     width: 60%;
+    background-color:rgb(38, 38, 38, 0.4);
+    border-radius: 15px;
   }
   label{
     background-color: var(--color);
     padding: 3px 10px;
     border-radius: 20px;
+    color: white
   }
   input[type=text], textarea, input[type=email]{
     font-size: 0.8rem;
@@ -24,7 +26,8 @@ export const StyledContact = styled.form`
     border-radius: 10px;
     margin: 1rem 0;
     border: 3px solid var(--color);
-    background: var(--background-input);
+    background: inherit;
+    color: inherit;
   }
   textarea{
     resize: none;
@@ -36,7 +39,8 @@ export const StyledContact = styled.form`
     border: 3px solid var(--color);
     border-radius: 10px;
     font-size: 1.3rem;
-    color:var(--color);
+    color:white;
+    background: var(--color);
   }
   button:hover{
     background-color: var(--second-color);
@@ -46,7 +50,17 @@ export const StyledContact = styled.form`
     padding: 12px 20px;
     border: 3px solid var(--color);
     border-radius: 10px;
-    background-color: var(--background-input);
+    background-color: inherit;
+  }
+
+  @media screen and (min-width: 768px){
+    width:60%;
+    max-height: 100%;
+    margin-left: auto;
+    overflow-y:scroll;
+    .wrapper{
+      padding: 1rem;
+    }
   }
   
 `

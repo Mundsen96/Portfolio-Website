@@ -4,6 +4,7 @@ import { device } from '../devices';
 export const StyledSkills = styled.section`
   color:var(--second-color);
   font-size: 1.2rem;
+  margin-left: auto;
 
   .skills-container{
     display: flex;
@@ -25,5 +26,9 @@ export const StyledSkills = styled.section`
   }
   ul, li{
     list-style-type: none;
+  }
+
+  @media screen and (min-width: 768px){
+    width: 60%;
   }
 `

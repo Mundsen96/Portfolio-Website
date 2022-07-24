@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <StyledMain>
       <div className="message">
-        <img src={sebek} alt="" />
+        <img className='smallScreen' src={sebek} alt="" />
         <h2>Hi, I'm Sebastian Młotkowski</h2>
         <p>Welcome to my Portfolio website! <br/> I'm glad you are here <br/> Feel free to contact me! </p>
         <p>I'm self-taught front-end developer, who is looking to gain some experience and improve my Portfolio</p>
