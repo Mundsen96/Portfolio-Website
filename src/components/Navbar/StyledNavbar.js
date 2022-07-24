@@ -5,7 +5,7 @@ export const StyledNavbar = styled.nav`
   padding: 5px 0;
   width: 100%;
   height: fit-content;
-  background-color: #b3ccff;
+  background-color: var(--color);
 
   ul{
     display: flex;
@@ -21,7 +21,7 @@ export const StyledNavbar = styled.nav`
     text-decoration: none;
   }
   ul li a:hover{
-    color: white;
+    color: var(--second-color);
     opacity: 0.5;
     border-radius: 25px;
     transition: all 0.15s; 

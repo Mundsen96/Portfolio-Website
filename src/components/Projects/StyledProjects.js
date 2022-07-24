@@ -23,9 +23,9 @@ export const StyledProjects = styled.section`
     // transform: translate(-50%, -50%);
     // -ms-transform: translate(-50%, -50%);
     text-align: center;
-    background-color: rgb(38, 38, 38, 0.2);
+    background-color: var(--color);
     padding: 0.5rem;
-    color: #6696ff;
+    color: var(--second-color);
     border-radius: 15px;
     margin: 5px 0;
     box-shadow: 0 0 0.3em black;

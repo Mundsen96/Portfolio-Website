@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { device } from '../devices';
 
 export const StyledSkills = styled.section`
-  color:rgb(38, 38, 38, 0.4);
+  color:var(--second-color);
   font-size: 1.2rem;
 
   .skills-container{
@@ -17,7 +17,7 @@ export const StyledSkills = styled.section`
     width: calc(50% - 10px);
     padding: 1rem;
     text-align: center;
-    background-color: #b3ccff;
+    background-color: var(--color);
     border-radius: 10px;
   }
   .skill-name{

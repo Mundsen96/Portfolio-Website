@@ -34,7 +34,7 @@ export const StyledMain = styled.main`
   .message p{
     width: 80%;
     color: white;
-    background-color: #b3ccff;
+    background-color: var(--color);
     border-radius: 10px;
     padding: 1vw;
   }

@@ -8,12 +8,12 @@ export const StyledContact = styled.form`
   flex-direction: column;
   font-size: 0.8rem;
   padding: 1rem;
-  color:rgb(38, 38, 38, 0.7);
+  color:var(--second-color);
   .wrapper{
     width: 60%;
   }
   label{
-    background-color: #b3ccff;
+    background-color: var(--color);
     padding: 3px 10px;
     border-radius: 20px;
   }
@@ -23,7 +23,8 @@ export const StyledContact = styled.form`
     padding: 10px 15px;
     border-radius: 10px;
     margin: 1rem 0;
-    border: 3px solid #b3ccff;
+    border: 3px solid var(--color);
+    background: var(--background-input);
   }
   textarea{
     resize: none;
@@ -32,20 +33,20 @@ export const StyledContact = styled.form`
   button{
     width: fit-content;
     padding: 12px 20px;
-    border: 3px solid #b3ccff;
+    border: 3px solid var(--color);
     border-radius: 10px;
     font-size: 1.3rem;
-    color:rgb(38, 38, 38, 0.7);
+    color:var(--color);
   }
   button:hover{
-    background-color: #b3ccff;
+    background-color: var(--second-color);
     cursor: pointer;
   }
   .after-submit{
     padding: 12px 20px;
-    border: 3px solid #b3ccff;
+    border: 3px solid var(--color);
     border-radius: 10px;
-    background-color: white;
+    background-color: var(--background-input);
   }
   
 `
