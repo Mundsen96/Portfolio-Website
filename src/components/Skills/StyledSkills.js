@@ -3,8 +3,9 @@ import { device } from '../devices';
 
 export const StyledSkills = styled.section`
   color:var(--second-color);
-  font-size: 1.2rem;
+  font-size: 5vw;
   margin-left: auto;
+  height: 150vw;
 
   .skills-container{
     display: flex;
@@ -27,8 +28,12 @@ export const StyledSkills = styled.section`
   ul, li{
     list-style-type: none;
   }
+  li:hover{
+    background-color: rgb(38, 38, 38, 0.4);
+  }
 
   @media screen and (min-width: 768px){
     width: 60%;
+    font-size: 2vw;
   }
 `

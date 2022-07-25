@@ -24,7 +24,7 @@ code {
 #root{
   display: grid;
   grid-template-columns: 5% 90% 5%;
-  grid-template-rows: 10% 65% 25%;
+  grid-template-rows: 5% 65% 35%;
   height: 100%;
 }
 
@@ -49,6 +49,18 @@ code {
 @media screen and (min-width: 768px){
   .app{
     display: flex;
+    height: 60vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .app{
+    display:flex;
+    height: 52vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .app{
+    display:flex;
     height: 45vw;
   }
 }

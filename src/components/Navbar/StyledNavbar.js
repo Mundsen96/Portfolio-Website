@@ -7,17 +7,19 @@ export const StyledNavbar = styled.nav`
   width:100%;
   background-color: var(--color);
   border-radius: 15px 15px 0 0;
+  font-size: 4vw;
 
   ul{
     display: flex;
     list-style: none;
     padding: 0;
+    justify-content:center;
   }
   ul li a{
     display: inline-block;
     padding:5px;
     color: white;
-    font-size: 1.2rem;
+    font-size: inherit;
     text-decoration: none;
     width:100%;
   }
@@ -40,6 +42,7 @@ export const StyledNavbar = styled.nav`
   @media screen and (min-width: 768px){
     width: 20%;
     border-radius: 15px 0 15px 0;
+    font-size: 2vw;
     ul{
       flex-direction: column;
       margin:0;

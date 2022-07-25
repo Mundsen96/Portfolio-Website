@@ -3,15 +3,17 @@ import { device } from '../devices';
 
 export const StyledContact = styled.form`
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
-  font-size: 0.8rem;
+  font-size: 3vw;
   padding:1rem 0;
+  height: 150vw;
   .wrapper{
     width: 60%;
-    background-color:rgb(38, 38, 38, 0.4);
+    background-color:rgb(38, 38, 38, 0.2);
     border-radius: 15px;
+    padding: 2vw;
   }
   label{
     background-color: var(--color);
@@ -20,7 +22,7 @@ export const StyledContact = styled.form`
     color: white
   }
   input[type=text], textarea, input[type=email]{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     width: 100%;
     padding: 10px 15px;
     border-radius: 10px;
@@ -31,14 +33,14 @@ export const StyledContact = styled.form`
   }
   textarea{
     resize: none;
-    height: 10rem;
+    height: 10em;
   }
   button{
     width: fit-content;
     padding: 12px 20px;
     border: 3px solid var(--color);
     border-radius: 10px;
-    font-size: 1.3rem;
+    font-size: 1.5em;
     color:white;
     background: var(--color);
   }
@@ -58,8 +60,9 @@ export const StyledContact = styled.form`
     max-height: 100%;
     margin-left: auto;
     overflow-y:scroll;
+    font-size: 1.5vw;
     .wrapper{
-      padding: 1rem;
+      padding: 1vw;
     }
   }
   
