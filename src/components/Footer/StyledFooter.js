@@ -15,13 +15,6 @@ export const StyledFooter = styled.footer`
   i{
     font-size: inherit;
   }
-  p{
-    font-size:0.7rem;
-    margin:0;
-  }
-  h3{
-    margin:0;
-  }
   @media screen and (min-width: 768px){
     margin-left: auto;
     width: fit-content;

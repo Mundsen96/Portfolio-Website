@@ -11,7 +11,7 @@ const Projects = () => {
           return (
           <div className="image-box" key={project.id}>
             <div className="comment">{project.comment}</div>
-            <a href={project.href} target="_blank">
+            <a href={project.href} target="_blank" rel="noreferrer">
               <img src={project.imageURL} alt={project.name} className='image'/>
             </a>
           </div>
