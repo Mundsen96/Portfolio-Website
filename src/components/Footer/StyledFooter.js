@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from '../devices';
 
 export const StyledFooter = styled.footer`
   color: white;

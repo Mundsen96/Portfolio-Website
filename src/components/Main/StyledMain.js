@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import sebek from '../Projects/Images/Seba.png'
 import { device } from '../devices';
 
 export const StyledMain = styled.main`

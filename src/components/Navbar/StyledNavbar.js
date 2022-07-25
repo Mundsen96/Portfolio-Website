@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from '../devices';
 
 export const StyledNavbar = styled.nav`
   padding: 5px 0 0 0;

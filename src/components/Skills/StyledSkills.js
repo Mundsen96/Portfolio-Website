@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from '../devices';
 
 export const StyledSkills = styled.section`
   color:var(--second-color);
