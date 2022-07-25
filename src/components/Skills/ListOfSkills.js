@@ -13,5 +13,7 @@ name: "Git"
 name: "Responsive"
 },{ icon:"fa-brands fa-python fa-2x",
 name: "Python"
+},{ icon:"fa-brands fa-node fa-2x",
+name: "NodeJS"
 }
 ]
