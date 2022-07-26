@@ -15,7 +15,8 @@ export const projects = [
   },
   {
     name: 'Quiz Game',
-    comment: 'A Quiz-game, created in React, which takes random questions from API, based on the custom attributes, taken by form on first screen. The API addres is https://opentdb.com/api_config.php.',
+    comment:
+      'A Quiz-game, created in React, which takes random questions from API, based on the custom attributes, taken by form on first screen. The API addres is https://opentdb.com/api_config.php.',
     imageURL: quizGame,
     href: 'https://github.com/Mundsen96/Quiz-Game',
     id: 2,

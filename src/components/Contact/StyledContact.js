@@ -6,21 +6,23 @@ export const StyledContact = styled.form`
   align-items: center;
   flex-direction: column;
   font-size: 3vw;
-  padding:1rem 0;
+  padding: 1rem 0;
   height: 150vw;
-  .wrapper{
+  .wrapper {
     width: 60%;
-    background-color:rgb(38, 38, 38, 0.2);
+    background-color: rgb(38, 38, 38, 0.2);
     border-radius: 15px;
     padding: 2vw;
   }
-  label{
+  label {
     background-color: var(--color);
     padding: 3px 10px;
     border-radius: 20px;
-    color: white
+    color: white;
   }
-  input[type=text], textarea, input[type=email]{
+  input[type='text'],
+  textarea,
+  input[type='email'] {
     font-size: 0.8em;
     width: 100%;
     padding: 10px 15px;
@@ -30,39 +32,38 @@ export const StyledContact = styled.form`
     background: inherit;
     color: inherit;
   }
-  textarea{
+  textarea {
     resize: none;
     height: 10em;
   }
-  button{
+  button {
     width: fit-content;
     padding: 12px 20px;
     border: 3px solid var(--color);
     border-radius: 10px;
     font-size: 1.5em;
-    color:white;
+    color: white;
     background: var(--color);
   }
-  button:hover{
+  button:hover {
     background-color: var(--second-color);
     cursor: pointer;
   }
-  .after-submit{
+  .after-submit {
     padding: 12px 20px;
     border: 3px solid var(--color);
     border-radius: 10px;
     background-color: inherit;
   }
 
-  @media screen and (min-width: 768px){
-    width:60%;
+  @media screen and (min-width: 768px) {
+    width: 60%;
     max-height: 100%;
     margin-left: auto;
-    overflow-y:scroll;
+    overflow-y: scroll;
     font-size: 1.5vw;
-    .wrapper{
+    .wrapper {
       padding: 1vw;
     }
   }
-  
-`
+`;

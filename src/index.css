@@ -1,12 +1,11 @@
-
-:root{
+:root {
   --color: #4d88ff;
   --second-color: #b3ccff;
 }
 
 body {
   margin: 0;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 50vw;
@@ -21,24 +20,24 @@ code {
   box-sizing: border-box;
 }
 
-#root{
+#root {
   display: grid;
   grid-template-columns: 5% 90% 5%;
   grid-template-rows: 5% 65% 35%;
   height: 100%;
 }
 
-.dark{
-  background:#404040;
+.dark {
+  background: #404040;
   color: white;
 }
 
-.light{
+.light {
   background: white;
   color: black;
 }
 
-.app{
+.app {
   box-shadow: 0 0 1em black;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
@@ -46,21 +45,21 @@ code {
   height: fit-content;
 }
 
-@media screen and (min-width: 768px){
-  .app{
+@media screen and (min-width: 768px) {
+  .app {
     display: flex;
     height: 60vw;
   }
 }
 @media screen and (min-width: 1024px) {
-  .app{
-    display:flex;
+  .app {
+    display: flex;
     height: 52vw;
   }
 }
 @media screen and (min-width: 1440px) {
-  .app{
-    display:flex;
+  .app {
+    display: flex;
     height: 45vw;
   }
 }
