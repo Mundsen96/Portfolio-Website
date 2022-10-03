@@ -5,7 +5,7 @@ import quizGame from './Images/QuizGame.png';
 import travel from './Images/TravelJournal.png';
 import portfolio from './Images/MagdaPortfolio.png';
 import email from './Images/E-mailApp.png';
-import userrandom from './Images/randomAPI.png';
+import userrandom from './Images/RandomAPI.png';
 
 export const projects = [
   {
