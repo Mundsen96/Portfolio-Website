@@ -4,6 +4,8 @@ import airbnb from './Images/Airbnb.png';
 import quizGame from './Images/QuizGame.png';
 import travel from './Images/TravelJournal.png';
 import portfolio from './Images/MagdaPortfolio.png';
+import email from './Images/E-mailApp.png';
+import userrandom from './Images/randomAPI';
 
 export const projects = [
   {
