@@ -6,6 +6,7 @@ import travel from './Images/TravelJournal.png';
 import portfolio from './Images/MagdaPortfolio.png';
 import email from './Images/E-mailApp.png';
 import userrandom from './Images/RandomAPI.png';
+import itransition from './Images/Itransitions.png';
 
 export const projects = [
   {
@@ -27,7 +28,7 @@ export const projects = [
     comment: 'Tenzies Game',
     imageURL: tenzies,
     href: 'https://github.com/Mundsen96/Tenzies',
-    id: 3,
+    id: 9,
   },
   {
     name: 'Quiz Game',
@@ -63,6 +64,13 @@ export const projects = [
     comment: 'Portfolio made for Graphic Designer',
     imageURL: portfolio,
     href: 'https://sokolowskaportfolio.netlify.app',
-    id: 6,
+    id: 8,
+  },
+  {
+    name: 'Full-Stack Project',
+    comment: 'Full-Stack Collection managment project from Itransitions internship',
+    imageURL: itransition,
+    href: 'http://final-project-mlotkowski.herokuapp.com/',
+    id: 3,
   },
 ];
