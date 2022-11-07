@@ -19,14 +19,14 @@ export const projects = [
     name: 'Random User',
     comment: 'Random user from chosen country with randomly placed errors generator. Also CSV functionality',
     imageURL: userrandom,
-    href: 'https://github.com/Mundsen96/Tenzies',
+    href: 'https://task6sebastianmlotkowski.netlify.app',
     id: 2,
   },
   {
     name: 'Tenzies',
     comment: 'Tenzies Game',
     imageURL: tenzies,
-    href: 'https://task6sebastianmlotkowski.netlify.app',
+    href: 'https://github.com/Mundsen96/Tenzies',
     id: 3,
   },
   {
