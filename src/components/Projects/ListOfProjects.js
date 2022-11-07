@@ -24,11 +24,11 @@ export const projects = [
     id: 2,
   },
   {
-    name: 'Tenzies',
-    comment: 'Tenzies Game',
-    imageURL: tenzies,
-    href: 'https://github.com/Mundsen96/Tenzies',
-    id: 9,
+    name: 'Full-Stack Project',
+    comment: 'Full-Stack Collection managment project from Itransitions internship',
+    imageURL: itransition,
+    href: 'http://final-project-mlotkowski.herokuapp.com/',
+    id: 3,
   },
   {
     name: 'Quiz Game',
@@ -67,10 +67,10 @@ export const projects = [
     id: 8,
   },
   {
-    name: 'Full-Stack Project',
-    comment: 'Full-Stack Collection managment project from Itransitions internship',
-    imageURL: itransition,
-    href: 'http://final-project-mlotkowski.herokuapp.com/',
-    id: 3,
+    name: 'Tenzies',
+    comment: 'Tenzies Game',
+    imageURL: tenzies,
+    href: 'https://github.com/Mundsen96/Tenzies',
+    id: 9,
   },
 ];
